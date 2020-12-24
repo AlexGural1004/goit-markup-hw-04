@@ -21,7 +21,6 @@
 
 .container-header{
     align-items: center;
-    background-image:../images/img_hero;
     }
 
 .header{
@@ -565,3 +564,9 @@ a{
     margin-right: 30px;
     }
 
+.overlay (
+    max-width:1600px;
+    height: 600px;
+    backgroung-image:(url*../)
+
+) 
