@@ -727,14 +727,14 @@ a{
 
 .names-icon-svg:hover{
     fill:var(--background-color)
-}
+    }
+
 .footer-section{
     display: flex;
     }
 
 .footer-container{
     display: flex;
-
     padding-top: 60px;
     padding-right: 70px;
     padding-bottom: 60px;
@@ -748,18 +748,15 @@ a{
 .footer-adress{
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color:var(--h1-color);
     }
 
 .footer-social-networks{
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--h1-color);
     padding-top: 12px;
-
     }
 
 .footer-icon{
@@ -767,7 +764,6 @@ a{
     }
 
 .footer-icon-svg:hover{
-    border: 1px solid;
     border-radius: 50%;
     fill:var(--h1-color);
     background-color: var(--logo-text-color);
@@ -777,13 +773,6 @@ a{
 .footer-icon{
     width: 44px;
     height: 44px;
-    border: 0;
-
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     }
 
 .footer-icon-svg {
@@ -795,7 +784,7 @@ a{
     width: 44px;
     height: 44px;
     margin-top: 20px;
-    padding: 12px;
+    padding: 9px;
     fill:var(--h1-color);
     border-radius: 50%;
     background-color:rgba(255, 255, 255, 0.1);;
