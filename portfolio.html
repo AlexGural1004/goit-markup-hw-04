@@ -11,21 +11,33 @@
     <body>
         <!-- portfolio page-->
         <header class="header">
-            <div class="container portfolio-container">
-                <a class="logo" href="src=/">Web<span class="logo-color">Studio</span></a> 
+            <div class="container container-header">
+                <a class="logo" href="src=/">Web<span class="logo-color">Studio</span></a>
                 <nav>
-                <ul class="link-buttons">
-                    <li class="item"><a class="link" href="./">Студия</a> </li>
-                    <li class="item"><a class="link link-portfolio" href="./portfolio.html">Портфолио</a></li>
-                    <li class="item"><a class="link" href="#">Контакты</a></li>
-                    </ul>                     
+                    <ul class="link-buttons">
+                        <li class="item"><a class="link " href="./">Студия</a> </li>
+                        <li class="item"><a class="link link-portfolio" href="./portfolio.html">Портфолио</a></li>
+                        <li class="item"><a class="link" href="#">Контакты</a></li>
+                    </ul>
                 </nav>
-                <ul class="link-buttons nav-link-contacts">
-                    <li class="item"><a class="link link-contacts link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="item"><a class="link link-contacts link-tel" href="tel:+38(096)1111111">+38 096 111 11 11</a></li>
-                </ul>
+                <div class="header-contacts-container">
+        
+                    <ul class="link-buttons nav-link-contacts">
+                        <svg class="link-mail-logo">
+                            <use href="../images/symbol-defs.svg#icon-mail" width="16px" height="12px"></use>
+                        </svg>
+                        <li class="item"><a class="link link-contacts link-mail"
+                                href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                        <svg class="link-mail-logo-tel">
+                            <use href="../images/symbol-defs.svg#icon-telephone" width="10px" height="16px"></use>
+                        </svg>
+                        <li class="item"><a class="link link-contacts link-tel" href="tel:+38(096)1111111">+38 096 111 11 11</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-       </header>
+        </header>
         <main class="main">
             <section class="categories-section">
                 <div class="container">
