@@ -100,29 +100,20 @@ li{
     margin-right: 30px;
     margin-bottom: 30px;
     background: #FFFFFF;
-    border: 2px solid #EEEEEE;
     box-sizing: border-box;
     }
 
-.types-of-works>.flex-element:hover{
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    }
-
-.portfolio-link{
+.portfolio-link {
     width: 370px;
     height: 404px;
+    border: 2px solid #EEEEEE;
     }
 
-.types-of-works>.flex-element a{
-    width: 370px;
+.portfolio-link:hover{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     }
-
 .portfolio-link:focus{
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    }
-
-.portfilio-pics{
-    width: 100%;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     }
 
 .types-of-works>.flex-element:nth-last-child(-n+3){
@@ -183,9 +174,12 @@ body{
     line-height: 1.19;
     }
 
-.link-contacts{
+.item.link-contacts{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
     letter-spacing: 0.02em;
-    color:var(--primary-text-color);
+    color: #757575;
     }
 
 .link{
@@ -205,16 +199,6 @@ body{
     color:var(--primary-text-color);
     fill:currentColor
     }
-    
-.link-mail{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color:var(--button-color);
-    }
 
 .link-mail-logo{
     margin-right: 10px;
@@ -225,32 +209,12 @@ body{
      margin-right: 10px;   
     }
 
-.link-studio{
-    color:var(--button-color);
-    }
-
-.link-portfolio{
-    color:var(--button-color);
-    }
-
 .link:hover{
     color:var(--button-color);
     }
 
 .link:focus{
     color:var(--button-color);
-    }
-
-.flex-element:focus{
-    color:var(--logo-text-color);
-    }
-
-.button-all:focus{
-    color: var(--logo-color);
-    }
-
-.flex-element:focus{
-    color: var(--button-color);
     }
 
 li{
@@ -550,7 +514,7 @@ a{
     margin-right: auto;   
     }
 
-.button-all{
+.buttons .button-standart:hover{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
@@ -561,20 +525,21 @@ a{
     margin-right: 8px;   
     border-radius: 4px;
     border: none;
-    }
-
-.button-all:hover{
-    color:var(--logo-color);
-    }
-
-.button-standart:hover{
-    color:var(--button-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     }
 
 .button-standart:focus{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
+    background: #2196F3;
+    color:var(--h1-color);
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 8px;   
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     }
 
 .hidden-header{        
