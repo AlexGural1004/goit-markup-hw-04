@@ -174,14 +174,13 @@ body{
     line-height: 1.19;
     }
 
-.item.link-contacts{
+.link-mail-logo{
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #757575;
     }
-
 .link{
     font-family: Roboto;
     font-style: normal;
@@ -820,4 +819,12 @@ background-image:linear-gradient(
 
 .footer-icon-link:focus{
     background-color:var(--logo-text-color);
+    }
+    
+.link-contacts{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
     }
