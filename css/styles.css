@@ -237,6 +237,10 @@ body{
     color:var(--button-color);
     }
 
+.link:focus{
+    color:var(--button-color);
+    }
+
 .flex-element:focus{
     color:var(--logo-text-color);
     }
