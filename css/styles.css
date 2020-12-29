@@ -723,7 +723,6 @@ background-image:linear-gradient(
     }
 
 .names-icon-link:hover{
-    height: 44px;
     border-radius: 50%;
     fill:var(--h1-color);
     background-color: var(--logo-text-color);
@@ -733,32 +732,24 @@ background-image:linear-gradient(
 
 .names-icon-link:focus{
     display: block;
-    height: 44px;
     border-radius: 50%;
-    fill:var(--h1-color);
+    fill:var(--background-color);
     background-color: var(--logo-text-color);
     color: var(--logo-text-color);
     border:var(--logo-text-color);
     }
 
 .names-icon{
-
     height: 44px;
     margin-right: 10px;
     }
 
-.names-icon-svg {
+.names-icon-link {
     width: 20px;
     height: 20px;
     margin: 0;
     padding: 12px;
     fill: #AFB1B8;;
-    }
-
-.names-icon{
-    width: 44px;
-    height: 44px;
-    border: 0;
     }
 
 .names-icon:hover{
@@ -768,18 +759,6 @@ background-image:linear-gradient(
     fill:var(--h1-color);
     background-color: var(--logo-text-color);
     color: var(--logo-text-color);
-    }
-
-.names-icon-svg:hover{
-    fill:var(--background-color)
-    }
-
-.names-icon-svg:focus{
-    fill:var(--background-color)
-    }
-
-.names-icon-svg:focus{
-    display: block;
     }
 
 .footer-section{
